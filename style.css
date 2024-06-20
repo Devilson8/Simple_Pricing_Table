@@ -1,0 +1,42 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 95vh;
+  gap: 20px;
+}
+
+.box {
+  background-color: #f2f2f2;
+  text-align: center;
+  flex-basis: 400px;
+  padding: 20px;
+  border-radius: 10px;
+}
+h1 {
+  font-size: 45px;
+}
+.btn {
+  background-color: #ff6600;
+  border: none;
+  color: white;
+  cursor: pointer;
+  height: 40px;
+  width: 70px;
+  border-radius: 5px;
+  text-transform: capitalize;
+}
+@media (max-width: 1300px) {
+  .container {
+    flex-direction: column;
+  }
+  .box {
+    background-color: #f2f2f2;
+    text-align: center;
+    flex-basis: 400px;
+    border-radius: 10px;
+  }
+}
